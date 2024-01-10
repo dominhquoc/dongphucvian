@@ -37,6 +37,10 @@ section {
   z-index: 99;
 }
 
+.nicky{
+  border-radius: 10%;
+}
+
 @media only screen and (max-width: 768px) {
   .menu{
     width: 100%;

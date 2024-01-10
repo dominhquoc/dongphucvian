@@ -42,14 +42,14 @@ const Porfolio = () => {
                 <div className='flex items-center justify-between flex-wrap'>
                     <div className='mb-7 sm:mb-0'>
                         <h3 className='text-headingColor text-[2rem] font-[700]'>
-                            My
+                            Đồng phục công sở
                         </h3>
                     </div>
 
                     <div className='flex gap-3'>
                         <button onClick={() => setSelectTab('all')} className='text-smallTextColor border border-solid border-smallTextColor py-2 px-4 rounded-[8px]'>Tất Cả</button>
                         <button onClick={() => setSelectTab('Web')} className='text-smallTextColor border border-solid border-smallTextColor py-2 px-4 rounded-[8px]'>Sơ Mi</button>
-                        <button onClick={() => setSelectTab('Ux')} className='text-smallTextColor border border-solid border-smallTextColor py-2 px-4 rounded-[8px]'>Vestib</button>
+                        <button onClick={() => setSelectTab('Ux')} className='text-smallTextColor border border-solid border-smallTextColor py-2 px-4 rounded-[8px]'>Veston</button>
                     </div>
                 </div>
 
