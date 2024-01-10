@@ -15,10 +15,21 @@ const Header = () => {
                 </div>
                 {/* logo end */}
                 {/* menu start */}
-                <div>
-                    
+                <div className='menu'>
+                    <ul className='flex items-center gap-10'>
+                        <li><a className='text-smallTextColor font-[600]' href="#about">Giới Thiệu</a></li>
+                        <li><a className='text-smallTextColor font-[600]' href="#services">May Đồng Phục</a></li>
+                        <li><a className='text-smallTextColor font-[600]' href="#portfolio">Sản Phẩm</a></li>
+                        <li><a className='text-smallTextColor font-[600]' href="#contact">Liên Hệ</a></li>
+                    </ul>
                 </div>
                 {/* menu end */}
+                {/* menu right */}
+                <div className='flex items-center gap-4'>
+                    <button className='flex items-center gap-2 text-smallTextColor font-[600] border border-solid border-smallTextColor py-2 px-4 rounded-[8px] max-h-[40px] hover:bg-smallTextColor hover:text-white hover:font-[500] ease-in duration-300'><i class='ri-send-plane-line'></i>0907404677</button>
+                    <span className='text-2xl text-smallTextColor md:hidden cursor-pointer'><i class='ri-menu-line'></i></span>
+                </div>
+                {/* menu right end*/}
             </div>
         </div>
     </header>
